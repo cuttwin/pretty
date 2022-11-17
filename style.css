@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+/* * {
+    padding: 0;
+    
+} */
+
+body{
+            background-color: rgba(238, 5, 168, 0.322);
+            color:rgb(37, 7, 7);
+            /* font-size: 16px;
+            font-weight: normal;
+            font-family:  'Roboto Slab', serif; */
+            font: normal 16px 'Roboto Slab', serif;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: line-through;
+}
+
+a:visited{
+    color: rgb(105, 16, 58);
+}
+.spooky {
+    width: 100%;
+    border-radius: 50%;
+    /* box-shadow: 10px 15px rgb(105, 16, 58); */
+
+}
+
+.info-text {
+    display: flex;
+    color:aliceblue;
+    margin: 0;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    text-decoration-line: overline;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+.container {
+   max-width: 75%; 
+   /* adapt */
+   margin: auto;
+
+}
+
+.thai {
+    background: greenyellow;
+    padding: 5px 20px;
+    border: 5px solid green;
+    border-bottom-style: outset;
+    border-top-style: inset;
+    margin: 20px;
+    font: green;
+}
+
+/* .box-model div {
+    background: black;
+    float: left;
+    height: 100px;
+    width:25%;
+    border: 2px solid red;
+    box-sizing: border-box;
+} */
+
+.bg-light {
+    background:rgba(238, 42, 117, 0.712)
+}
+
+.bg-medium {
+    background: rgb(231, 12, 77);
+}
+
+.bg-dark {
+    background: rgb(223, 7, 90);
+}
+
+.card {
+    padding: 15px 10px;
+    /* background: rgba(223, 10, 63, 0.61); */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(245, 205, 219);
+
+}
+
+.list {
+    padding: 0 20px;
+    /* list-style: none; */
+
+}
+
+.list li {
+    color: beige;
+    list-style: armenian;
+    /* margin-bottom: 20px; */
+    border-bottom: 1px solid beige;
+   
+}
+
+.table {
+    width: 100%;
+    font-size: small;
+
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(1) {
+    color: beige;
+}
+
+.table td:nth-child(2) {
+    color: rgb(245, 245, 97);
+}
+
+.table td:nth-child(3) {
+    color: rgb(163, 235, 141);
+}
+
+/* .table td:nth-child(3), .table td:nth-child(2) {
+    color: rgb(163, 235, 141);
+} */
+
+.table tr:nth-child(1), .table tr:nth-child(3) {
+    background:rgb(224, 80, 123);
+    color:antiquewhite
+}
+
+.table tr:nth-child(even) {
+    background:rgb(252, 78, 144)
+}
+
+.form-group label {
+    display: flex;
+    font-size: medium;
+    font-style: bold;
+    color:rgba(54, 2, 39, 0.842)
+}
+
+.form-group input {
+    width:75%;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#text {
+    background:rgb(243, 138, 169);
+    border: none;
+    color:rgb(37, 7, 7);
+    outline: none;
+    font-family: inherit;
+}
+
+#horror {
+    outline: none;
+    
+}
+
+.btn {
+    background:rgb(245, 245, 97);
+    border: none;
+    color: rgb(33, 12, 54);
+    font-family: inherit;
+    font-style: strong;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(0, 255, 13);
+}
+
+/* position */
+
+.position {
+    position: relative;
+    /* border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px; */
+}
+
+.box {
+    /* не является контентом для блока */
+    position: fixed;
+    bottom: 50px;
+    left: 12px;
+    width: 50px;
+    height: 50px;
+    background:rgb(245, 245, 97);
+    border-radius: 50%;
+}
+
+.navigation {
+    position: fixed;
+    top: 50px;
+    left: 12px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2vmax;
+    background: rgb(245, 245, 97);
+    
+}
+/* 
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+} */
